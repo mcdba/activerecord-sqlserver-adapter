@@ -1,7 +1,6 @@
 require 'base64'
 require 'active_record'
-require 'arel/arel_sqlserver'
-require 'arel/visitors/bind_visitor'
+require 'arel_sqlserver'
 require 'active_record/connection_adapters/abstract_adapter'
 require 'active_record/connection_adapters/sqlserver/core_ext/active_record'
 require 'active_record/connection_adapters/sqlserver/core_ext/explain'
