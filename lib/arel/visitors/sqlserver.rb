@@ -40,20 +40,20 @@ module Arel
       end
 
       def visit_Arel_Nodes_Offset o, collector
-        collector << OFFSET
-        visit o.expr, collector
-        collector << ROWS
+        # collector << OFFSET
+        # visit o.expr, collector
+        # collector << ROWS
       end
 
       def visit_Arel_Nodes_Limit o, collector
-        if node_value(o) == 0
-          collector << FETCH0
-          collector << ROWS_ONLY
-        else
-          collector << FETCH
-          visit o.expr, collector
-          collector << ROWS_ONLY
-        end
+        # if node_value(o) == 0
+        #   collector << FETCH0
+        #   collector << ROWS_ONLY
+        # else
+        #   collector << FETCH
+        #   visit o.expr, collector
+        #   collector << ROWS_ONLY
+        # end
       end
 
       def visit_Arel_Nodes_SelectStatement o, collector
