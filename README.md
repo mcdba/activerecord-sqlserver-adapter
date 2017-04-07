@@ -1,4 +1,3 @@
-
 # ActiveRecord SQL Server Adapter. For SQL Server 2012 And Higher.
 
 * [![TravisCI](https://travis-ci.org/rails-sqlserver/activerecord-sqlserver-adapter.svg?branch=4-2-stable)](https://travis-ci.org/rails-sqlserver/activerecord-sqlserver-adapter) - TravisCI
